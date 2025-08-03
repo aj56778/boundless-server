@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "boundless-server",
+  "upload_source_maps": true,
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "boundless-db",
+      "database_id": "2d90dd5c-ccb6-457f-b767-1aa50f6a055d"
+    }
+  ]
+}
